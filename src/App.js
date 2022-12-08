@@ -10,7 +10,7 @@ import Home from './components/Home';
 import Gigs from './components/Gigs';
 import Kontakt from './components/Kontakt';
 import { Datenschutz } from './components/Datenschutz';
-import { BrowserRouter as Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Cookie from './components/Cookie';
 
 function App() {
