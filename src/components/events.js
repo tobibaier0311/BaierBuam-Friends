@@ -16,7 +16,7 @@ export const events = [
     event: 'Familiengottesdienst Neustift',
     date: 'Sonntag, 19.02. 2022',
     description:
-      'Familiengottesdienst mit rythmischer Begleitung der Baierbuam & Friends in der Kirche Neustift',
+      'Familiengottesdienst mit rhythmischer Begleitung der Baierbuam & Friends in der Kirche Neustift',
   },
   {
     event: '50 Jahre Gartenbauverein Schalding links der Donau',
