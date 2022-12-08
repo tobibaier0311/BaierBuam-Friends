@@ -1,0 +1,12 @@
+.GigCard {
+  width: 18rem;
+  margin: 1vw;
+  color: #002c5c;
+}
+
+.Gigs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px 0 50px;
+  background-color: #002c5c77;
+}

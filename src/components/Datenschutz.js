@@ -1,15 +1,10 @@
-import React from "react";
+import React from 'react';
+import '../styles/Datenschutz.css';
 
 export const Datenschutz = () => {
   return (
     <>
-      <div
-        className="Impressum_dsgvo"
-        style={{
-          marginRight: "20vw",
-          marginLeft: "20vw",
-        }}
-      >
+      <div className="datenschutz">
         <h1>Impressum</h1>
         <p>
           Philipp Kohl
@@ -20,7 +15,7 @@ export const Datenschutz = () => {
         </p>
         <h1>Datenschutz&shy;erkl&auml;rung</h1>
         <h2>1. Datenschutz auf einen Blick</h2>
-        <h3>Allgemeine Hinweise</h3>{" "}
+        <h3>Allgemeine Hinweise</h3>{' '}
         <p>
           Die folgenden Hinweise geben einen einfachen &Uuml;berblick
           dar&uuml;ber, was mit Ihren personenbezogenen Daten passiert, wenn Sie
@@ -29,36 +24,36 @@ export const Datenschutz = () => {
           Ausf&uuml;hrliche Informationen zum Thema Datenschutz entnehmen Sie
           unserer unter diesem Text aufgef&uuml;hrten Datenschutzerkl&auml;rung.
         </p>
-        <h3>Datenerfassung auf dieser Website</h3>{" "}
+        <h3>Datenerfassung auf dieser Website</h3>{' '}
         <h4>
           Wer ist verantwortlich f&uuml;r die Datenerfassung auf dieser Website?
-        </h4>{" "}
+        </h4>{' '}
         <p>
           Die Datenverarbeitung auf dieser Website erfolgt durch den
           Websitebetreiber. Dessen Kontaktdaten k&ouml;nnen Sie dem Abschnitt
           &bdquo;Hinweis zur Verantwortlichen Stelle&ldquo; in dieser
           Datenschutzerkl&auml;rung entnehmen.
-        </p>{" "}
-        <h4>Wie erfassen wir Ihre Daten?</h4>{" "}
+        </p>{' '}
+        <h4>Wie erfassen wir Ihre Daten?</h4>{' '}
         <p>
           Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese
           mitteilen. Hierbei kann es sich z.&nbsp;B. um Daten handeln, die Sie
           in ein Kontaktformular eingeben.
-        </p>{" "}
+        </p>{' '}
         <p>
           Andere Daten werden automatisch oder nach Ihrer Einwilligung beim
           Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem
           technische Daten (z.&nbsp;B. Internetbrowser, Betriebssystem oder
           Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt
           automatisch, sobald Sie diese Website betreten.
-        </p>{" "}
-        <h4>Wof&uuml;r nutzen wir Ihre Daten?</h4>{" "}
+        </p>{' '}
+        <h4>Wof&uuml;r nutzen wir Ihre Daten?</h4>{' '}
         <p>
           Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung
           der Website zu gew&auml;hrleisten. Andere Daten k&ouml;nnen zur
           Analyse Ihres Nutzerverhaltens verwendet werden.
-        </p>{" "}
-        <h4>Welche Rechte haben Sie bez&uuml;glich Ihrer Daten?</h4>{" "}
+        </p>{' '}
+        <h4>Welche Rechte haben Sie bez&uuml;glich Ihrer Daten?</h4>{' '}
         <p>
           Sie haben jederzeit das Recht, unentgeltlich Auskunft &uuml;ber
           Herkunft, Empf&auml;nger und Zweck Ihrer gespeicherten
@@ -70,14 +65,14 @@ export const Datenschutz = () => {
           Umst&auml;nden die Einschr&auml;nkung der Verarbeitung Ihrer
           personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein
           Beschwerderecht bei der zust&auml;ndigen Aufsichtsbeh&ouml;rde zu.
-        </p>{" "}
+        </p>{' '}
         <p>
           Hierzu sowie zu weiteren Fragen zum Thema Datenschutz k&ouml;nnen Sie
           sich jederzeit an uns wenden.
         </p>
         <h2>2. Hosting</h2>
         <p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
-        <h3>Externes Hosting</h3>{" "}
+        <h3>Externes Hosting</h3>{' '}
         <p>
           Diese Website wird extern gehostet. Die personenbezogenen Daten, die
           auf dieser Website erfasst werden, werden auf den Servern des Hosters
@@ -85,7 +80,7 @@ export const Datenschutz = () => {
           IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten,
           Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige
           Daten, die &uuml;ber eine Website generiert werden, handeln.
-        </p>{" "}
+        </p>{' '}
         <p>
           Das externe Hosting erfolgt zum Zwecke der Vertragserf&uuml;llung
           gegen&uuml;ber unseren potenziellen und bestehenden Kunden (Art. 6
@@ -98,22 +93,22 @@ export const Datenschutz = () => {
           Cookies oder den Zugriff auf Informationen im Endger&auml;t des
           Nutzers (z.&nbsp;B. Device-Fingerprinting) im Sinne des TTDSG umfasst.
           Die Einwilligung ist jederzeit widerrufbar.
-        </p>{" "}
+        </p>{' '}
         <p>
           Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten,
           wie dies zur Erf&uuml;llung seiner Leistungspflichten erforderlich ist
           und unsere Weisungen in Bezug auf diese Daten befolgen.
-        </p>{" "}
+        </p>{' '}
         <p>Wir setzen folgende(n) Hoster ein:</p>
         <p>Lukas</p>
         <h2>3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
-        <h3>Datenschutz</h3>{" "}
+        <h3>Datenschutz</h3>{' '}
         <p>
           Die Betreiber dieser Seiten nehmen den Schutz Ihrer pers&ouml;nlichen
           Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten
           vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften
           sowie dieser Datenschutzerkl&auml;rung.
-        </p>{" "}
+        </p>{' '}
         <p>
           Wenn Sie diese Website benutzen, werden verschiedene personenbezogene
           Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie
@@ -121,18 +116,18 @@ export const Datenschutz = () => {
           Datenschutzerkl&auml;rung erl&auml;utert, welche Daten wir erheben und
           wof&uuml;r wir sie nutzen. Sie erl&auml;utert auch, wie und zu welchem
           Zweck das geschieht.
-        </p>{" "}
+        </p>{' '}
         <p>
           Wir weisen darauf hin, dass die Daten&uuml;bertragung im Internet
           (z.&nbsp;B. bei der Kommunikation per E-Mail) Sicherheitsl&uuml;cken
           aufweisen kann. Ein l&uuml;ckenloser Schutz der Daten vor dem Zugriff
           durch Dritte ist nicht m&ouml;glich.
         </p>
-        <h3>Hinweis zur verantwortlichen Stelle</h3>{" "}
+        <h3>Hinweis zur verantwortlichen Stelle</h3>{' '}
         <p>
           Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser
           Website ist:
-        </p>{" "}
+        </p>{' '}
         <p>
           Philipp Kohl
           <br />
@@ -149,7 +144,7 @@ export const Datenschutz = () => {
           Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen,
           E-Mail-Adressen o. &Auml;.) entscheidet.
         </p>
-        <h3>Speicherdauer</h3>{" "}
+        <h3>Speicherdauer</h3>{' '}
         <p>
           Soweit innerhalb dieser Datenschutzerkl&auml;rung keine speziellere
           Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten
@@ -165,7 +160,7 @@ export const Datenschutz = () => {
         <h3>
           Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf
           dieser Website
-        </h3>{" "}
+        </h3>{' '}
         <p>
           Sofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten
           wir Ihre personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit.
@@ -191,7 +186,7 @@ export const Datenschutz = () => {
         </p>
         <h3>
           Hinweis zur Datenweitergabe in die USA und sonstige Drittstaaten
-        </h3>{" "}
+        </h3>{' '}
         <p>
           Wir verwenden unter anderem Tools von Unternehmen mit Sitz in den USA
           oder sonstigen datenschutzrechtlich nicht sicheren Drittstaaten. Wenn
@@ -208,7 +203,7 @@ export const Datenschutz = () => {
           speichern. Wir haben auf diese Verarbeitungst&auml;tigkeiten keinen
           Einfluss.
         </p>
-        <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>{" "}
+        <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>{' '}
         <p>
           Viele Datenverarbeitungsvorg&auml;nge sind nur mit Ihrer
           ausdr&uuml;cklichen Einwilligung m&ouml;glich. Sie k&ouml;nnen eine
@@ -219,7 +214,7 @@ export const Datenschutz = () => {
         <h3>
           Widerspruchsrecht gegen die Datenerhebung in besonderen F&auml;llen
           sowie gegen Direktwerbung (Art. 21 DSGVO)
-        </h3>{" "}
+        </h3>{' '}
         <p>
           WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER
           F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GR&Uuml;NDEN, DIE
@@ -234,7 +229,7 @@ export const Datenschutz = () => {
           DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN &Uuml;BERWIEGEN ODER DIE
           VERARBEITUNG DIENT DER GELTENDMACHUNG, AUS&Uuml;BUNG ODER VERTEIDIGUNG
           VON RECHTSANSPR&Uuml;CHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).
-        </p>{" "}
+        </p>{' '}
         <p>
           WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU
           BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE
@@ -248,7 +243,7 @@ export const Datenschutz = () => {
         <h3>
           Beschwerde&shy;recht bei der zust&auml;ndigen
           Aufsichts&shy;beh&ouml;rde
-        </h3>{" "}
+        </h3>{' '}
         <p>
           Im Falle von Verst&ouml;&szlig;en gegen die DSGVO steht den
           Betroffenen ein Beschwerderecht bei einer Aufsichtsbeh&ouml;rde,
@@ -257,7 +252,7 @@ export const Datenschutz = () => {
           Versto&szlig;es zu. Das Beschwerderecht besteht unbeschadet
           anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
         </p>
-        <h3>Recht auf Daten&shy;&uuml;bertrag&shy;barkeit</h3>{" "}
+        <h3>Recht auf Daten&shy;&uuml;bertrag&shy;barkeit</h3>{' '}
         <p>
           Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung
           oder in Erf&uuml;llung eines Vertrags automatisiert verarbeiten, an
@@ -266,7 +261,7 @@ export const Datenschutz = () => {
           &Uuml;bertragung der Daten an einen anderen Verantwortlichen
           verlangen, erfolgt dies nur, soweit es technisch machbar ist.
         </p>
-        <h3>Auskunft, L&ouml;schung und Berichtigung</h3>{" "}
+        <h3>Auskunft, L&ouml;schung und Berichtigung</h3>{' '}
         <p>
           Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit
           das Recht auf unentgeltliche Auskunft &uuml;ber Ihre gespeicherten
@@ -275,43 +270,43 @@ export const Datenschutz = () => {
           L&ouml;schung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema
           personenbezogene Daten k&ouml;nnen Sie sich jederzeit an uns wenden.
         </p>
-        <h3>Recht auf Einschr&auml;nkung der Verarbeitung</h3>{" "}
+        <h3>Recht auf Einschr&auml;nkung der Verarbeitung</h3>{' '}
         <p>
           Sie haben das Recht, die Einschr&auml;nkung der Verarbeitung Ihrer
           personenbezogenen Daten zu verlangen. Hierzu k&ouml;nnen Sie sich
           jederzeit an uns wenden. Das Recht auf Einschr&auml;nkung der
           Verarbeitung besteht in folgenden F&auml;llen:
-        </p>{" "}
+        </p>{' '}
         <ul>
-          {" "}
+          {' '}
           <li>
             Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten
             personenbezogenen Daten bestreiten, ben&ouml;tigen wir in der Regel
             Zeit, um dies zu &uuml;berpr&uuml;fen. F&uuml;r die Dauer der
             Pr&uuml;fung haben Sie das Recht, die Einschr&auml;nkung der
             Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
-          </li>{" "}
+          </li>{' '}
           <li>
             Wenn die Verarbeitung Ihrer personenbezogenen Daten
             unrechtm&auml;&szlig;ig geschah/geschieht, k&ouml;nnen Sie statt der
             L&ouml;schung die Einschr&auml;nkung der Datenverarbeitung
             verlangen.
-          </li>{" "}
+          </li>{' '}
           <li>
             Wenn wir Ihre personenbezogenen Daten nicht mehr ben&ouml;tigen, Sie
             sie jedoch zur Aus&uuml;bung, Verteidigung oder Geltendmachung von
             Rechtsanspr&uuml;chen ben&ouml;tigen, haben Sie das Recht, statt der
             L&ouml;schung die Einschr&auml;nkung der Verarbeitung Ihrer
             personenbezogenen Daten zu verlangen.
-          </li>{" "}
+          </li>{' '}
           <li>
             Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt
             haben, muss eine Abw&auml;gung zwischen Ihren und unseren Interessen
             vorgenommen werden. Solange noch nicht feststeht, wessen Interessen
             &uuml;berwiegen, haben Sie das Recht, die Einschr&auml;nkung der
             Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
-          </li>{" "}
-        </ul>{" "}
+          </li>{' '}
+        </ul>{' '}
         <p>
           Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten
           eingeschr&auml;nkt haben, d&uuml;rfen diese Daten &ndash; von ihrer
@@ -323,14 +318,14 @@ export const Datenschutz = () => {
           oder eines Mitgliedstaats verarbeitet werden.
         </p>
         <h2>4. Datenerfassung auf dieser Website</h2>
-        <h3>Anfrage per E-Mail, Telefon oder Telefax</h3>{" "}
+        <h3>Anfrage per E-Mail, Telefon oder Telefax</h3>{' '}
         <p>
           Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre
           Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten
           (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns
           gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre
           Einwilligung weiter.
-        </p>{" "}
+        </p>{' '}
         <p>
           Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1
           lit. b DSGVO, sofern Ihre Anfrage mit der Erf&uuml;llung eines
@@ -341,7 +336,7 @@ export const Datenschutz = () => {
           gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer
           Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt
           wurde; die Einwilligung ist jederzeit widerrufbar.
-        </p>{" "}
+        </p>{' '}
         <p>
           Die von Ihnen an uns per Kontaktanfragen &uuml;bersandten Daten
           verbleiben bei uns, bis Sie uns zur L&ouml;schung auffordern, Ihre
@@ -352,17 +347,17 @@ export const Datenschutz = () => {
           unber&uuml;hrt.
         </p>
         <h2>5. Soziale Medien</h2>
-        <h3>Facebook</h3>{" "}
+        <h3>Facebook</h3>{' '}
         <p>
           Auf dieser Website sind Elemente des sozialen Netzwerks Facebook
           integriert. Anbieter dieses Dienstes ist die Meta Platforms Ireland
           Limited, 4 Grand Canal Square, Dublin 2, Irland. Die erfassten Daten
           werden nach Aussage von Facebook jedoch auch in die USA und in andere
           Drittl&auml;nder &uuml;bertragen.
-        </p>{" "}
+        </p>{' '}
         <p>
           Eine &Uuml;bersicht &uuml;ber die Facebook Social-Media-Elemente
-          finden Sie hier:{" "}
+          finden Sie hier:{' '}
           <a
             href="https://developers.facebook.com/docs/plugins/?locale=de_DE"
             target="_blank"
@@ -371,7 +366,7 @@ export const Datenschutz = () => {
             https://developers.facebook.com/docs/plugins/?locale=de_DE
           </a>
           .
-        </p>{" "}
+        </p>{' '}
         <p>
           Wenn das Social-Media-Element aktiv ist, wird eine direkte Verbindung
           zwischen Ihrem Endger&auml;t und dem Facebook-Server hergestellt.
@@ -384,7 +379,7 @@ export const Datenschutz = () => {
           hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der
           &uuml;bermittelten Daten sowie deren Nutzung durch Facebook erhalten.
           Weitere Informationen hierzu finden Sie in der
-          Datenschutzerkl&auml;rung von Facebook unter:{" "}
+          Datenschutzerkl&auml;rung von Facebook unter:{' '}
           <a
             href="https://de-de.facebook.com/privacy/explanation"
             target="_blank"
@@ -393,7 +388,7 @@ export const Datenschutz = () => {
             https://de-de.facebook.com/privacy/explanation
           </a>
           .
-        </p>{" "}
+        </p>{' '}
         <p>
           Soweit eine Einwilligung (Consent) eingeholt wurde, erfolgt der
           Einsatz des o.&nbsp;g. Dienstes auf Grundlage von Art. 6 Abs. 1 lit. a
@@ -401,7 +396,7 @@ export const Datenschutz = () => {
           Soweit keine Einwilligung eingeholt wurde, erfolgt die Verwendung des
           Dienstes auf Grundlage unseres berechtigten Interesses an einer
           m&ouml;glichst umfassenden Sichtbarkeit in den Sozialen Medien.
-        </p>{" "}
+        </p>{' '}
         <p>
           Soweit mit Hilfe des hier beschriebenen Tools personenbezogene Daten
           auf unserer Website erfasst und an Facebook weitergeleitet werden,
@@ -414,7 +409,7 @@ export const Datenschutz = () => {
           der gemeinsamen Verantwortung. Die uns gemeinsam obliegenden
           Verpflichtungen wurden in einer Vereinbarung &uuml;ber gemeinsame
           Verarbeitung festgehalten. Den Wortlaut der Vereinbarung finden Sie
-          unter:{" "}
+          unter:{' '}
           <a
             href="https://www.facebook.com/legal/controller_addendum"
             target="_blank"
@@ -431,11 +426,11 @@ export const Datenschutz = () => {
           verarbeiteten Daten k&ouml;nnen Sie direkt bei Facebook geltend
           machen. Wenn Sie die Betroffenenrechte bei uns geltend machen, sind
           wir verpflichtet, diese an Facebook weiterzuleiten.
-        </p>{" "}
+        </p>{' '}
         <p>
           Die Daten&uuml;bertragung in die USA wird auf die
           Standardvertragsklauseln der EU-Kommission gest&uuml;tzt. Details
-          finden Sie hier:{" "}
+          finden Sie hier:{' '}
           <a
             href="https://www.facebook.com/legal/EU_data_transfer_addendum"
             target="_blank"
@@ -443,15 +438,15 @@ export const Datenschutz = () => {
           >
             https://www.facebook.com/legal/EU_data_transfer_addendum
           </a>
-          ,{" "}
+          ,{' '}
           <a
             href="https://de-de.facebook.com/help/566994660333381"
             target="_blank"
             rel="noopener noreferrer"
           >
             https://de-de.facebook.com/help/566994660333381
-          </a>{" "}
-          und{" "}
+          </a>{' '}
+          und{' '}
           <a
             href="https://www.facebook.com/policy.php"
             target="_blank"
@@ -461,18 +456,18 @@ export const Datenschutz = () => {
           </a>
           .
         </p>
-        <h3>Instagram</h3>{" "}
+        <h3>Instagram</h3>{' '}
         <p>
           Auf dieser Website sind Funktionen des Dienstes Instagram eingebunden.
           Diese Funktionen werden angeboten durch die Meta Platforms Ireland
           Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland.
-        </p>{" "}
+        </p>{' '}
         <p>
           Wenn das Social-Media-Element aktiv ist, wird eine direkte Verbindung
           zwischen Ihrem Endger&auml;t und dem Instagram-Server hergestellt.
           Instagram erh&auml;lt dadurch Informationen &uuml;ber den Besuch
           dieser Website durch Sie.
-        </p>{" "}
+        </p>{' '}
         <p>
           Wenn Sie in Ihrem Instagram-Account eingeloggt sind, k&ouml;nnen Sie
           durch Anklicken des Instagram-Buttons die Inhalte dieser Website mit
@@ -480,7 +475,7 @@ export const Datenschutz = () => {
           dieser Website Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin,
           dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der
           &uuml;bermittelten Daten sowie deren Nutzung durch Instagram erhalten.
-        </p>{" "}
+        </p>{' '}
         <p>
           Soweit eine Einwilligung (Consent) eingeholt wurde, erfolgt der
           Einsatz des o.&nbsp;g. Dienstes auf Grundlage von Art. 6 Abs. 1 lit. a
@@ -488,7 +483,7 @@ export const Datenschutz = () => {
           Soweit keine Einwilligung eingeholt wurde, erfolgt die Verwendung des
           Dienstes auf Grundlage unseres berechtigten Interesses an einer
           m&ouml;glichst umfassenden Sichtbarkeit in den Sozialen Medien.
-        </p>{" "}
+        </p>{' '}
         <p>
           Soweit mit Hilfe des hier beschriebenen Tools personenbezogene Daten
           auf unserer Website erfasst und an Facebook bzw. Instagram
@@ -502,7 +497,7 @@ export const Datenschutz = () => {
           gemeinsamen Verantwortung. Die uns gemeinsam obliegenden
           Verpflichtungen wurden in einer Vereinbarung &uuml;ber gemeinsame
           Verarbeitung festgehalten. Den Wortlaut der Vereinbarung finden Sie
-          unter:{" "}
+          unter:{' '}
           <a
             href="https://www.facebook.com/legal/controller_addendum"
             target="_blank"
@@ -520,11 +515,11 @@ export const Datenschutz = () => {
           k&ouml;nnen Sie direkt bei Facebook geltend machen. Wenn Sie die
           Betroffenenrechte bei uns geltend machen, sind wir verpflichtet, diese
           an Facebook weiterzuleiten.
-        </p>{" "}
+        </p>{' '}
         <p>
           Die Daten&uuml;bertragung in die USA wird auf die
           Standardvertragsklauseln der EU-Kommission gest&uuml;tzt. Details
-          finden Sie hier:{" "}
+          finden Sie hier:{' '}
           <a
             href="https://www.facebook.com/legal/EU_data_transfer_addendum"
             target="_blank"
@@ -532,15 +527,15 @@ export const Datenschutz = () => {
           >
             https://www.facebook.com/legal/EU_data_transfer_addendum
           </a>
-          ,{" "}
+          ,{' '}
           <a
             href="https://help.instagram.com/519522125107875"
             target="_blank"
             rel="noopener noreferrer"
           >
             https://help.instagram.com/519522125107875
-          </a>{" "}
-          und{" "}
+          </a>{' '}
+          und{' '}
           <a
             href="https://de-de.facebook.com/help/566994660333381"
             target="_blank"
@@ -549,10 +544,10 @@ export const Datenschutz = () => {
             https://de-de.facebook.com/help/566994660333381
           </a>
           .
-        </p>{" "}
+        </p>{' '}
         <p>
           Weitere Informationen hierzu finden Sie in der
-          Datenschutzerkl&auml;rung von Instagram:{" "}
+          Datenschutzerkl&auml;rung von Instagram:{' '}
           <a
             href="https://instagram.com/about/legal/privacy/"
             target="_blank"
@@ -563,23 +558,23 @@ export const Datenschutz = () => {
           .
         </p>
         <h2>6. Plugins und Tools</h2>
-        <h3>Google Fonts (lokales Hosting)</h3>{" "}
+        <h3>Google Fonts (lokales Hosting)</h3>{' '}
         <p>
           Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so
           genannte Google Fonts, die von Google bereitgestellt werden. Die
           Google Fonts sind lokal installiert. Eine Verbindung zu Servern von
           Google findet dabei nicht statt.
-        </p>{" "}
+        </p>{' '}
         <p>
-          Weitere Informationen zu Google Fonts finden Sie unter{" "}
+          Weitere Informationen zu Google Fonts finden Sie unter{' '}
           <a
             href="https://developers.google.com/fonts/faq"
             target="_blank"
             rel="noopener noreferrer"
           >
             https://developers.google.com/fonts/faq
-          </a>{" "}
-          und in der Datenschutzerkl&auml;rung von Google:{" "}
+          </a>{' '}
+          und in der Datenschutzerkl&auml;rung von Google:{' '}
           <a
             href="https://policies.google.com/privacy?hl=de"
             target="_blank"
@@ -590,7 +585,7 @@ export const Datenschutz = () => {
           .
         </p>
         <p>
-          Quelle:{" "}
+          Quelle:{' '}
           <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
         </p>
       </div>

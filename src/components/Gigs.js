@@ -1,22 +1,13 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { events } from './events';
+import '../styles/Gigs.css';
 
 function Gigs() {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        margin: '50px',
-      }}
-    >
+    <div className="Gigs">
       {events.map((item) => (
-        <Card
-          title={item.event}
-          border="dark"
-          style={{ width: '18rem', margin: '1vw', color: '#002d5c' }}
-        >
+        <Card className="GigCard" title={item.event} border="dark">
           <Card.Header>{item.date}</Card.Header>
           <Card.Body>
             <Card.Title>{item.event}</Card.Title>

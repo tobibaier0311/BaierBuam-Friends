@@ -1,21 +1,14 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Bild1 from "../assets/image00001.jpeg";
-import Bild2 from "../assets/image00002.jpeg";
-import Bild3 from "../assets/image00003.jpeg";
+import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Bild1 from '../assets/image00001.jpeg';
+import Bild2 from '../assets/image00002.jpeg';
+import Bild3 from '../assets/image00003.jpeg';
+import '../styles/Home.css';
 
 function Home() {
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        flexDirection: "column",
-        marginBottom: "5vh",
-        width: "100vw",
-      }}
-    >
+    <div className="home">
       <Carousel className="w-75">
         <Carousel.Item>
           <img className="d-block w-100" src={Bild1} alt="First slide" />
