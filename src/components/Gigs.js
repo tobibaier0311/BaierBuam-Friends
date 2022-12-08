@@ -1,25 +1,29 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+import { events } from './events';
 
 function Gigs() {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
+        display: 'flex',
+        flexWrap: 'wrap',
+        margin: '50px',
       }}
     >
-      <Card border="dark" style={{ width: "18rem", margin: "1vw" }}>
-        <Card.Header>Samstag, 22.10.2022, 14:00 Uhr</Card.Header>
-        <Card.Body>
-          <Card.Title>SV Schalding - TSV Dachau</Card.Title>
-          <Card.Text>
-            Musikalische Unterstützung für den SVS vor, während und nach dem
-            Spiel
-          </Card.Text>
-        </Card.Body>
-      </Card>
+      {events.map((item) => (
+        <Card
+          title={item.event}
+          border="dark"
+          style={{ width: '18rem', margin: '1vw', color: '#002d5c' }}
+        >
+          <Card.Header>{item.date}</Card.Header>
+          <Card.Body>
+            <Card.Title>{item.event}</Card.Title>
+            <Card.Text>{item.description}</Card.Text>
+          </Card.Body>
+        </Card>
+      ))}
     </div>
   );
 }
