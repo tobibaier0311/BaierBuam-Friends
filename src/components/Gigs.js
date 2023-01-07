@@ -6,7 +6,7 @@ import '../styles/Gigs.css';
 function Gigs() {
   return (
     <div className="Gigs">
-      {events.map((item) => (
+      {events.map(item => (
         <Card className="GigCard" title={item.event} border="dark">
           <Card.Header>{item.date}</Card.Header>
           <Card.Body>
