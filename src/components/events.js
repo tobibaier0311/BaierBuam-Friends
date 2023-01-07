@@ -14,7 +14,7 @@ export const events = [
       'Familiengottesdienst mit rhythmischer Begleitung der Baierbuam & Friends in der Kirche Neustift'
   },
   {
-    events: 'Starkbierfest Schalding r.d.D.',
+    event: 'Starkbierfest Schalding r.d.D.',
     date: 'Samstag, 18.03.2023, ab 18 Uhr',
     description: ''
   },
